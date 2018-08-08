@@ -19,4 +19,4 @@ if(message.content == "sh!repeat"){
          }
 });
 
-clent.login(process.env.BOT_TOKEN);
+client.login(process.env.BOT_TOKEN);
