@@ -11,7 +11,26 @@ client.on('message', message => {
     if (message.content === "да"){
     message.reply("нет");
 }
-    if(message.content == "sh!repeat"){
+    if (message.content=="нет"){
+
+    message.reply("да")
+}
+}
+if (message.content=="я не тупая"){
+
+    message.reply("ирина тупая")
+}
+}
+if (message.content=="тупая"){
+
+    message.reply("ирина тупая")
+}
+}
+if (message.content=="соснули"){
+
+    message.reply("ирина тупая")
+}
+    if(message.content == "в бой"){
       setInterval(function() {
           let answers = ["иринагей", "ирина тупая", "ирина сосет", "ирина фрик"]; 
           let rand = Math.floor(Math.random()*answers.length); 
