@@ -1,14 +1,13 @@
 {
-  "name": "ranis",
-  "version": "1.0.0",
-  "description": "",
-  "main": "Bot.js",
+  "name": "Test",
+  "description": "Test",
+  "version": "0.0.0",
+  "main": "bot.js",
   "scripts": {
-    "start": "node Bot.js"
+    "start": "node bot.js"
   },
-  "author": "",
-  "license": "ISC",
   "dependencies": {
-    "discord.js": "^11.3.2"
+    "discord.js": "11.1.0",
+    "request": "2.81.0"
   }
 }
