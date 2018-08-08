@@ -1,6 +1,6 @@
 const Discord = require("discord.js");
 const Bot= new Discord.Client();
-Bot.on('message',(message)=>{
+client.on('message',(message)=>{
 if (message.content=="да"){
     message.reply("нет");
 }
