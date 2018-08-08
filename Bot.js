@@ -19,4 +19,4 @@ if(message.content == "sh!repeat"){
          }
 });
 
-clent.login(process.env.NDc2NDMxODkyNjY1NTk3OTgz.DktxgA.7A5H26W2OcS-HAFDc90U2Q9IPmc);
+clent.login(process.env.BOT_TOKEN);
